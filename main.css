@@ -1,0 +1,45 @@
+
+body {
+    background:rgb(136, 109, 100);
+}
+ 
+
+.image {
+   margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+   }
+   .image2 {
+       margin-right: 275px; 
+        background: white;
+        border-radius: 50%;
+        height: 5em;
+        width: 5em;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+
+      .image3 {
+        margin-right: 275px; 
+         background: blue;
+         border-radius: 50%;
+      
+         height: 5em;
+         width: 5em;
+      
+         display: flex;
+     justify-content: center;
+     align-items: center;
+       }
+       .image2:hover {
+        background:red;
+       }
+       .image3:hover {
+        background:red;
+       }
+   
