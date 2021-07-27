@@ -5,27 +5,30 @@ body {
  
 
 .image {
-   margin-top: 75px;
+   margin-top: 55px;
+   margin-left: auto;
+   margin-right: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: space-evenly;
+    
+    width: 90%;
+   
     
 
    }
    .image2 {
-       margin-right: 275px; 
+       
         background: white;
         border-radius: 50%;
         height: 5em;
         width: 5em;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
       }
 
       .image3 {
-        margin-right: 275px; 
+        
          background: blue;
          border-radius: 50%;
       
@@ -35,6 +38,8 @@ body {
          display: flex;
      justify-content: center;
      align-items: center;
+     text-align: center;
+
        }
        .image2:hover {
         background:red;
@@ -42,4 +47,36 @@ body {
        .image3:hover {
         background:red;
        }
+   .text {
+    margin-top: 20px;
+    margin-left: auto;
+   margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 75%;
    
+    
+   }
+   .text2 {
+    
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #9d9d9d;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+    text-align: center;
+    width: 25%; 
+
+
+   }
+   span {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Proxima Nova";
+    text-align: center; 
+   }
