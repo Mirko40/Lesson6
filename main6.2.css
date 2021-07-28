@@ -14,7 +14,7 @@ h2 {
 
   ul {
   list-style: none; 
-  margin: 0 auto;
+  color: whitesmoke;
   font-size: x-large;
   
 }
@@ -25,15 +25,24 @@ li {
 nav {
   display: block;
   width: 30%;
-  margin: 0 auto 10px;
+  margin: 0 auto 10px auto;
 }
 .one ul {
 
-  background: #ECDAD6;
+  background: #88839F;
 }
 
+.color {
+        
+  background: blue;
+  border: 2px solid blue;
 
+  
+
+
+}
 
 input[type=checkbox]:checked + label.strikethrough {
     text-decoration: line-through;
-  }
+
+ 
