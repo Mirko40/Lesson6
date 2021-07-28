@@ -16,16 +16,22 @@ h2 {
   list-style: none; 
   color: whitesmoke;
   font-size: x-large;
+  padding-left: 0;
   
 }
 li {
-  padding: 10px;
+  padding: 10px ;
+  text-align: left;
+  display: flex;
+  
+  justify-content: left
 }
 
 nav {
   display: block;
   width: 30%;
   margin: 0 auto 10px auto;
+  background: grey;
 }
 .one ul {
 
@@ -34,15 +40,22 @@ nav {
 
 .color {
         
-  background: blue;
-  border: 2px solid blue;
-
+  background: #88839F;
+  border: 2px solid #88839F;
+  }
+  .color2 {
+        
+    background: #7A7593;
+    border: 2px solid #7A7593;
   
-
-
-}
+    }
+    h2, h4 {
+      
+      color:rgb(202, 68, 68);
+    }
 
 input[type=checkbox]:checked + label.strikethrough {
     text-decoration: line-through;
+}
 
- 
+    
