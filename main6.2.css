@@ -1,0 +1,39 @@
+
+body {margin:0;}
+h2 {
+  font-family: monospace;
+  color: #606060;
+  text-align: center;
+  
+  }
+  h4 {
+    font-family: monospace;
+    color: #606060;
+    text-align: center;
+  }
+
+  ul {
+  list-style: none; 
+  margin: 0 auto;
+  font-size: x-large;
+  
+}
+li {
+  padding: 10px;
+}
+
+nav {
+  display: block;
+  width: 30%;
+  margin: 0 auto 10px;
+}
+.one ul {
+
+  background: #ECDAD6;
+}
+
+
+
+input[type=checkbox]:checked + label.strikethrough {
+    text-decoration: line-through;
+  }
