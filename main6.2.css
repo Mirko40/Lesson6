@@ -1,17 +1,13 @@
 
+*{transition: all .1s ease-in;}
 body {margin:0;}
-h2 {
+h2, h4 {
   font-family: monospace;
   color: #606060;
   text-align: center;
+  color:rgb(202, 68, 68);
+  }
   
-  }
-  h4 {
-    font-family: monospace;
-    color: #606060;
-    text-align: center;
-  }
-
   ul {
   list-style: none; 
   color: whitesmoke;
@@ -23,7 +19,6 @@ li {
   padding: 10px ;
   text-align: left;
   display: flex;
-  
   justify-content: left
 }
 
@@ -49,13 +44,17 @@ nav {
     border: 2px solid #7A7593;
   
     }
-    h2, h4 {
-      
-      color:rgb(202, 68, 68);
-    }
-
+    
 input[type=checkbox]:checked + label.strikethrough {
     text-decoration: line-through;
 }
 
+.color:hover {
+  background: #625E77;
+  border: 2px solid white;
+}
+.color2:hover {
+  background: #625E77;
+  border: 2px solid white;
+}
     
