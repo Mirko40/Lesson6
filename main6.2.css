@@ -5,12 +5,10 @@ background:#3B3E45 ;
 }
 h1, h2 {
   font-family: monospace;
-  background: #606060;
-  text-align: center;
+   text-align: center;
   color:rgb(202, 68, 68);
-  
-  }
-  
+    }
+  div {background: #606060;}
   ul {
   list-style: none; 
   color: whitesmoke;
