@@ -7,8 +7,12 @@ h1, h2 {
   font-family: monospace;
    text-align: center;
   color:rgb(202, 68, 68);
+  
     }
-  div {background: #606060;}
+  div {background: #606060;
+  padding: 10px;
+  }
+  
   ul {
   list-style: none; 
   color: whitesmoke;
@@ -40,8 +44,7 @@ nav {
         
     background: #7A7593;
     border: 2px solid #7A7593;
-  
-    }
+      }
     
 input[type=checkbox]:checked + label.strikethrough {
     text-decoration: line-through;
@@ -49,11 +52,16 @@ input[type=checkbox]:checked + label.strikethrough {
 
 .color:hover {
   background: #625E77;
-  border: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 .color2:hover {
   background: #625E77;
-  border: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+span {
+  font-size: medium;
 }
 footer {
   font-family: monospace;
@@ -71,4 +79,12 @@ footer {
   align-items: center;
 
 }
+  input{
     
+      transform:scale(1.5);
+      opacity:0.9;
+      cursor:pointer;
+      margin:6px 10px 0 0;
+     vertical-align:middle;
+     
+  }  
